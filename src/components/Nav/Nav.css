@@ -69,12 +69,22 @@ a {
 .nav-icons {
     width: 40px;
     height: 40px;
+    border-radius: 4px;
+    transition: 250ms ease;
+}
+
+.nav-icons:hover {
+    filter: invert(20%);
 }
 
 .nav-icons-linkedin {
     width: 30x;
     height: 30px;
     padding-top: 5px;
+}
+
+.nav-icons-linkedin:hover {
+    filter: invert(20%);
 }
 
 .nav-half-left {
@@ -152,12 +162,8 @@ a {
     opacity: 1;
 }
 
-#icon:hover .nav-name{
-    background:tomato;
-}
-
 .nav-name:hover {
-    background: tomato;
+    background: rgb(201, 201, 201);
 }
 
 .menu {

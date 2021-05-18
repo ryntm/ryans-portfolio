@@ -35,7 +35,7 @@
 
 .continue:hover {
   color: white;
-
+  
 }
 
 #hire-text {
@@ -151,5 +151,11 @@
 @keyframes toShow {
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  svg {
+    width: 350px;
   }
 }

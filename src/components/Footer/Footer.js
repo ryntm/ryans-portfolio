@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return(
         <footer>
-            This is a Footer that appears on multiple pages.
+            <div className="footer-text">=)</div>
         </footer>
     )
 }

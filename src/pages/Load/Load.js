@@ -4,7 +4,7 @@ import "./Load.css"
 function Load() {
     return (
         <div className="load-div">
-            <svg id="hire-text" width="1028" height="118" viewBox="0 0 1028 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="hire-text" width="800" height="118" viewBox="0 0 1028 118" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.0880127" y="0.415985" width="1027" height="117" fill="transparent">
             <rect fill="white" x="0.0880127" y="0.415985" width="1027" height="117"/>
             <path d="M70.192 42.008C70.192 50.36 67.312 57.32 61.552 62.888C55.888 68.36 47.2 71.096 35.488 71.096H16.192V113H3.08801V12.632H35.488C46.816 12.632 55.408 15.368 61.264 20.84C67.216 26.312 70.192 33.368 70.192 42.008ZM35.488 60.296C42.784 60.296 48.16 58.712 51.616 55.544C55.072 52.376 56.8 47.864 56.8 42.008C56.8 29.624 49.696 23.432 35.488 23.432H16.192V60.296H35.488Z"/>

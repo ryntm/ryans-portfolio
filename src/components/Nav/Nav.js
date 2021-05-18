@@ -1,7 +1,11 @@
 import React from 'react';
 import './Nav.css';
+import './script';
+
+
 
 function Nav() {
+
     return (
         <nav>
             <div className="container">
@@ -20,19 +24,40 @@ function Nav() {
                                 <img className="nav-icons-linkedin" alt="linkedin-icon" src="https://github.com/ryntm/react-portfolio-time/blob/master/assets/images/linkedin-icon-png--1600.png?raw=true" />
                             </li>
                         </a>
-                    </ul>
-                </div>
-                <div className=" nav-half-right">
-                    <ul>
                         <a href="/contact"><li className="nav-item">Contact</li></a>
                         <a href="/portfolio"><li className="nav-item">Portfolio</li></a>
                         <a href="/home"><li className="nav-item">About</li></a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <a href="javascript:void(0);" class="icon" onclick={() => {
+                                // let menu = document.getElementsByClassName("menu")
+                                console.log('hi')
+                                // if (menu.style.display === 'none') {
+                                //     menu.style.display = 'block';
+                                // } else {
+                                //     menu.style.display = 'none';
+                                // };
+                            }}>
                             <i class="fa fa-bars"></i>
                         </a>
-
+                        <div className="menu">
+                            
+                                {/* <li> */}
+                                    <a href="/home"><li className="menu-item">About</li></a>
+                                {/* </li> */}
+                                <li>
+                                    <a href="/portfolio"><li className="menu-item">Portfolio</li></a>
+                                </li>
+                                <li>
+                                    <a href="/contact"><li className="menu-item">Contact</li></a>
+                                </li>
+                            
+                        </div>
                     </ul>
                 </div>
+                {/* <div className=" nav-half-right">
+                    <ul>
+
+                    </ul>
+                </div> */}
             </div>
         </nav>
     )

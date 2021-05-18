@@ -23,6 +23,7 @@ nav {
     margin-top: 10px;
     transition: 250ms ease;
     border-radius: 3px;
+
 }
 
 .nav-item:hover {
@@ -67,14 +68,18 @@ nav {
 }
 
 .nav-half-left {
+    width: 50%;
     padding: 0 0 0 40px ;
     height: 40px;
 
 }
 
 .nav-half-right {
-    padding: 0 20px 0 0 ;
+    width: 50%;
+
+    padding: 0 30px 0 0 ;
     height: 55px;
+    position: relative;
 
 }
 
@@ -102,8 +107,50 @@ nav {
     }
 } */
 
+.icon {
+    background: white;
+    position: absolute;
+    float: right;
+    top: 6px;
+    font-size: 1.5em;
+    height: 35px;
+    width: 35px;
+    color: black;
+    border-radius: 3px;
+    border-bottom: solid 2px #eee;
+    border-left: solid 2px #eee;
+    display: none;
+    text-align: center;
+
+}
+
 @media screen and (max-width: 675px) {
-    nav {
-        background: red;
+
+    .container {
+        display: flex;
     }
+    .nav-item {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        position: absolute;
+        /* right: 10px; */
+        float: right;
+    }
+    
+    .nav-half-left {
+        padding: 0;
+        
+    }
+    
+    .nav-half-right {
+        width: 50%;
+    }
+
+    footer {
+        width: 50%;
+    }
+
 }

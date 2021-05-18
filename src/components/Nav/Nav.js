@@ -5,7 +5,7 @@ function Nav() {
     return (
         <nav>
             <div className="container">
-                <div className="six columns nav-half-left">
+                <div className=" nav-half-left">
                     <ul>
                         <a href="/" className="logo-link">
                             <li className="nav-item-left nav-name">Ryan Tam</li>
@@ -22,11 +22,14 @@ function Nav() {
                         </a>
                     </ul>
                 </div>
-                <div className="six columns nav-half-right">
+                <div className=" nav-half-right">
                     <ul>
                         <a href="/contact"><li className="nav-item">Contact</li></a>
                         <a href="/portfolio"><li className="nav-item">Portfolio</li></a>
-                        <a href="/"><li className="nav-item">About</li></a>
+                        <a href="/home"><li className="nav-item">About</li></a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
 
                     </ul>
                 </div>

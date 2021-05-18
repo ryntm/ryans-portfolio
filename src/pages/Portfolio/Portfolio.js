@@ -75,23 +75,51 @@ function Portfolio() {
                         <span className="project-title">Ryan's Burger!</span>
                         <ul>
                             <li>
-                                     Deployed Link: <a href="https://github.com/ryntm/ryans-burgers">HERE</a>
+                                     Deployed Link: <a href="https://boiling-shore-26987.herokuapp.com/">HERE</a>
                             </li>
                             <li>
-                                Github Repo: <a href="https://boiling-shore-26987.herokuapp.com/">HERE</a>
+                                Github Repo: <a href="https://github.com/ryntm/ryans-burgers">HERE</a>
                             </li>
                         </ul>
                     </ProjectMiniCard>
                     <hr className="mini-projects"/>
                     
                     <ProjectMiniCard>
+                        <span className="project-title">Weetwoo!</span>
+                        <ul>
+                            <li>
+                                Deployed Link: <a href="https://www.weetwoo.org/">HERE</a>
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://github.com/ryntm/weetwoo">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects" />
+
+
+                    <ProjectMiniCard>
+                        <span className="project-title">Instagram Scraper</span>
+                        <ul>
+                            <li>
+                                Deployed Link: N/A
+                            </li>
+                            <li>
+                                Github Repo: <a href="https://github.com/ryntm/instagram-scraper">HERE</a>
+                            </li>
+                        </ul>
+                    </ProjectMiniCard>
+                    <hr className="mini-projects" />
+
+
+                    <ProjectMiniCard>
                         <span className="project-title">Fitness Tracker</span>
                         <ul>
                             <li>
-                                Deployed Link: <a href="https://github.com/ryntm/fitness-tracker">HERE</a>
+                                Deployed Link: <a href="https://floating-brook-46863.herokuapp.com/">HERE</a>
                             </li>
                             <li>
-                                Github Repo: <a href="https://floating-brook-46863.herokuapp.com/">HERE</a>
+                                Github Repo: <a href="https://github.com/ryntm/fitness-tracker">HERE</a>
                             </li>
                         </ul>
                     </ProjectMiniCard>
@@ -104,7 +132,7 @@ function Portfolio() {
                                 Deployed Link: N/A
                             </li>
                             <li>
-                                Github Repo: <a href="https://boiling-shore-26987.herokuapp.com/">HERE</a>
+                                Github Repo: <a href="https://github.com/ryntm/quiz-time">HERE</a>
                             </li>
                         </ul>
                     </ProjectMiniCard>
@@ -114,10 +142,10 @@ function Portfolio() {
                         <span className="project-title">Note Taker</span>
                         <ul>
                             <li>
-                                Deployed Link: <a href="https://github.com/ryntm/note-taker-time">HERE</a>
+                                Deployed Link: <a href="https://rocky-escarpment-79412.herokuapp.com/">HERE</a>
                             </li>
                             <li>
-                                Github Repo: <a href="https://rocky-escarpment-79412.herokuapp.com/">HERE</a>
+                                Github Repo: <a href="https://github.com/ryntm/note-taker-time">HERE</a>
                             </li>
                         </ul>
                     </ProjectMiniCard>
@@ -127,10 +155,10 @@ function Portfolio() {
                         <span className="project-title">PWA Budget Tracker</span>
                         <ul>
                             <li>
-                                Deployed Link: <a href="https://github.com/ryntm/pwa-budget-tracker">HERE</a>
+                                Deployed Link: <a href="https://calm-bayou-69361.herokuapp.com/">HERE</a>
                             </li>
                             <li>
-                                Github Repo: <a href="https://calm-bayou-69361.herokuapp.com/">HERE</a>
+                                Github Repo: <a href="https://github.com/ryntm/pwa-budget-tracker">HERE</a>
                             </li>
                         </ul>
                     </ProjectMiniCard>

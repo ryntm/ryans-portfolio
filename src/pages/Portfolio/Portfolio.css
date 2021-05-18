@@ -5,6 +5,7 @@
 
 .resume-button {
     margin-top: 10px;
+    animation: 500ms ease forwards;
 }
 
 .project-title {

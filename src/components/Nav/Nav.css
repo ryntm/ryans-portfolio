@@ -1,10 +1,11 @@
 nav {
-    margin: 0 auto;
+    margin: 5px auto;
     border-bottom: 1px #eee solid;
 }
 
 .container {
     max-width: 800px;
+    min-width: 675px;
     position: relative;
     /* padding-bottom: 15px; */
 } 
@@ -20,6 +21,14 @@ nav {
     margin-right: 15px;
     color: black;
     margin-top: 10px;
+    transition: 250ms ease;
+    border-radius: 3px;
+}
+
+.nav-item:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 201, 201);
+    transition: 250ms ease;
 }
 
 .nav-item-left {
@@ -28,6 +37,7 @@ nav {
     text-align: center;
     list-style: none;
     width: 40px;
+
 }
 
 .nav-name {
@@ -35,6 +45,14 @@ nav {
     width: 125px;
     font-size: 1.5em;
     margin-right: 15px;
+    transition: 250ms ease;
+    border-radius: 3px;
+}
+
+.nav-name:hover {
+    /* color: rgb(177, 177, 177); */
+    background-color: rgb(201, 201, 201);
+    transition: 250ms ease;
 }
 
 .nav-icons {
@@ -62,8 +80,30 @@ nav {
 
 .logo-link {
     color: black;
+    background-color: rgb(37, 37, 37);
+    transition: 150ms ease;
+    border-radius: 3px;
 }
 
 .logo-link:hover {
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 201, 201);
+    transition: 150ms ease;
+    
+}
+
+.logo-link:active {
+    text-decoration: none;
+}
+
+/* @keyframes navHover {
+    to {
+
+    }
+} */
+
+@media screen and (max-width: 675px) {
+    nav {
+        background: red;
+    }
 }

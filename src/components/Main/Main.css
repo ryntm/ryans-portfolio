@@ -7,8 +7,20 @@
     padding: 15px;
     width: 90%;
     margin-bottom: 80px;
+    border-radius: 3px;
 }
 
 h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.learn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.punc {
     font-family: 'Orbitron', sans-serif;
 }

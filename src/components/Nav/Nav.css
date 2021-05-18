@@ -8,6 +8,10 @@ li {
     margin-bottom: 0rem;
 } 
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 800px;
     min-width: 675px;
@@ -113,7 +117,11 @@ li {
     }
 } */
 
-.icon {
+#icon, .menu {
+    transition: all 250ms ease;
+}
+
+#icon {
     background: white;
     /* position: absolute; */
     /* float: righ/t; */
@@ -127,26 +135,44 @@ li {
     border-left: solid 2px #eee;
     display: none;
     text-align: center;
-    transition: 250ms ease;
 }
 
-.icon:active {
+#icon:active {
     text-decoration: none;
 }
 
-.icon:hover {
+#icon:hover {
     color: white;
     background: rgb(201, 201, 201);
 }
 
+#icon:hover .menu {
+    /* visibility: visible; */
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+#icon:hover .nav-name{
+    background:tomato;
+}
+
+.nav-name:hover {
+    background: tomato;
+}
+
 .menu {
-    visibility: hidden;
+    /* visibility: hidden; */
+    opacity: .5;
     position: absolute;
     right: 0;
     float: right;
     background: rgb(201, 201, 201);
     /* padding: 10px 20px 0 10px; */
     top: 50px;
+    transform: translateY(-150%);
+    font-size:15px;
+    text-align: left;
+
 }
 
 .menu-item {
@@ -158,14 +184,15 @@ li {
 
 }
 
-.menu-item a {
-    text-decoration: none;
-}
+
 
 .menu-item:hover {
     color: black;
     background: white;
 }
+
+
+
 @media screen and (max-width: 675px) {
 
     .container {
@@ -177,7 +204,7 @@ li {
         display: none;
     }
 
-    .icon {
+    #icon {
         display: block;
         /* position: absolute; */
         /* right: 10px; */
@@ -196,9 +223,9 @@ li {
         width: 50%;
     }
 
-    .menu {
+    /* .menu {
         visibility: visible;
-    }
+    } */
 
 
 }

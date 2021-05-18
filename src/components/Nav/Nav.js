@@ -27,30 +27,22 @@ function Nav() {
                         <a href="/contact"><li className="nav-item">Contact</li></a>
                         <a href="/portfolio"><li className="nav-item">Portfolio</li></a>
                         <a href="/home"><li className="nav-item">About</li></a>
-                        <a href="javascript:void(0);" class="icon" onclick={() => {
-                                // let menu = document.getElementsByClassName("menu")
-                                console.log('hi')
-                                // if (menu.style.display === 'none') {
-                                //     menu.style.display = 'block';
-                                // } else {
-                                //     menu.style.display = 'none';
-                                // };
-                            }}>
+                        <a href="javascript:void(0);" id="icon">
                             <i class="fa fa-bars"></i>
+                        
+                            <div className="menu">
+                                
+                                    {/* <li> */}
+                                        <a href="/home"><li className="menu-item">About</li></a>
+                                    {/* </li> */}
+                                    <li>
+                                        <a href="/portfolio"><li className="menu-item">Portfolio</li></a>
+                                    </li>
+                                    <li>
+                                        <a href="/contact"><li className="menu-item">Contact</li></a>
+                                    </li>
+                            </div>
                         </a>
-                        <div className="menu">
-                            
-                                {/* <li> */}
-                                    <a href="/home"><li className="menu-item">About</li></a>
-                                {/* </li> */}
-                                <li>
-                                    <a href="/portfolio"><li className="menu-item">Portfolio</li></a>
-                                </li>
-                                <li>
-                                    <a href="/contact"><li className="menu-item">Contact</li></a>
-                                </li>
-                            
-                        </div>
                     </ul>
                 </div>
                 {/* <div className=" nav-half-right">

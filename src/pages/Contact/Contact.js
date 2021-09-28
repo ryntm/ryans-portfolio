@@ -12,7 +12,7 @@ function Home() {
                 <div className="resume-area">
                     <span>My contact information can be found in my resume.</span>
                     <br />
-                    <a href="https://github.com/ryntm/react-portfolio-time/blob/master/assets/Resume.docx?raw=true">
+                    <a href="https://github.com/ryntm/ryans-portfolio/raw/master/assets/Ryan-Tam_Resume.pdf">
                         <button className="button-primary resume-button">
                             RESUME
                         </button>
